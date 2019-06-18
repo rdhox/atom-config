@@ -1,0 +1,39 @@
+"*":
+  "atom-visual-studio-code-ui":
+    tabSizing: "Minimum"
+  core:
+    disabledPackages: [
+      "language-javascript"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-material-syntax"
+    ]
+  "exception-reporting":
+    userId: "e896970f-d696-4d73-b814-bb83e3e984fc"
+  "highlight-selected":
+    highlightBackground: true
+  "language-babel":
+    emmetCSSAutocomplete: true
+    taggedTemplateGrammar: [
+      "\"(?<=<style jsx>{)|(?<=<style jsx global>{)|(?<=css)\":source.css.styled"
+    ]
+  "linter-eslint":
+    autofix: {}
+  "linter-ui-default": {}
+  "platformio-ide-terminal":
+    style:
+      defaultPanelHeight: "160px"
+      fontSize: "small"
+    toggles:
+      runInsertedText: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNoConfigFile: true
+      showInStatusBar: true
+    useEslint: true
+  welcome:
+    showOnStartup: false
